@@ -31,10 +31,16 @@ Built with:
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 ### 1️⃣ Clone repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/devtrack.git
 cd devtrack
+
+### 2️⃣ Backend Setup
+```bash
+cd server
+npm install
+
