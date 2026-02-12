@@ -38,9 +38,29 @@ Built with:
 ```bash
 git clone https://github.com/YOUR_USERNAME/devtrack.git
 cd devtrack
+```
 
 ### 2️⃣ Backend Setup
 ```bash
 cd server
 npm install
+```
+
+Create .env file:
+```bash
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+Run backend:
+```bash
+npm start
+```
+
+### 3️⃣ Frontend Setup
+```bash
+cd client
+npm install
+npm run dev
+```
 
