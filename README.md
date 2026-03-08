@@ -113,7 +113,6 @@ Tags help organize and filter tasks.
 
 ## Add a **Work Logging Section**
 
-```markdown
 ## 📝 Work Logging
 
 DevTrack allows you to log development activities throughout the day.
