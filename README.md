@@ -76,3 +76,51 @@ DevTrack now supports a simple task lifecycle to help you track your development
 
 ```bash
 devtrack add "Implement authentication endpoint"
+```
+
+### Start working on a task
+
+```bash
+devtrack start 1
+```
+
+Task status changes to:
+
+```bash
+doing
+```
+
+### Complete a task
+
+```bash
+devtrack done 1
+```
+
+Task status changes to:
+
+```bash
+done
+```
+
+### Tag a task
+
+```bash
+devtrack tag 1 backend
+```
+
+Tags help organize and filter tasks.
+
+
+## Add a **Work Logging Section**
+
+```markdown
+## 📝 Work Logging
+
+DevTrack allows you to log development activities throughout the day.
+
+This helps track what you actually worked on without leaving the terminal.
+
+### Log work
+
+```bash
+devtrack log 1 "Implemented JWT authentication"
