@@ -111,9 +111,8 @@ devtrack tag 1 backend
 Tags help organize and filter tasks.
 
 
-## Add a **Work Logging Section**
 
-## 📝 Work Logging
+## Work Logging
 
 DevTrack allows you to log development activities throughout the day.
 
