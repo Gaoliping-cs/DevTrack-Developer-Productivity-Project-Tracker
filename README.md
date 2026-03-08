@@ -22,12 +22,16 @@ Built with:
 
 ## 🔐 Features
 
+- Add, list, and remove tasks
+- Task lifecycle management (`todo → doing → done`)
 - User Authentication (JWT)
 - Protected Routes
 - Project Management
 - Task Tracking
 - Dashboard Analytics
 - REST API Architecture
+- Log development activities during the day
+- View a daily work summary
 
 ---
 
@@ -64,3 +68,11 @@ npm install
 npm run dev
 ```
 
+## Task Workflow
+
+DevTrack now supports a simple task lifecycle to help you track your development progress.
+
+### Create a task
+
+```bash
+devtrack add "Implement authentication endpoint"
